@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: #FAF9F9;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.o-nav {
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.o-nav h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #343638;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.o-nav h3 {
+    font-weight: 300;
+    color: #343638;
+    margin: 0 0 1rem 0;
+} 
+
+.container-media h4 {
+    font-weight: 300;
+    color: #343638;
+    margin: 1.2rem 0.5rem 0 0;
+}
+
+.container-media img {
+    width: 25px;
+    height: 25px;
+    margin: 1rem 1rem 0 0.2rem;
+}
+
+.container-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+.column h3 {
+    font-weight: lighter;
+    margin: 2rem 5rem 0 25rem;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 2rem 5rem 0 23rem;
+}
+
+.name h4 {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 2rem 0 0 0;
+}
+
+.name img {
+    width: 120px;
+    height: 110px;
+}
+
+.o-column h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: normal;
+    font-size: 55px;
+    margin: 2rem 5rem 0 23rem;
+}
+
+.o-column p {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 2rem 23rem 10rem 23rem;
+}

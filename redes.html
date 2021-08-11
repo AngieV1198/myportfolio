@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Gráfico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="redes.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="carousel center-align">
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal1">Ver</a>
+                        <img src="./fondomenu/ejercicio 1.jpg" alt="">
+                        <a href="retoque.html">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal2">Ver</a>
+                        <img src="./fondomenu/ejercicio 2.jpg" alt="">
+                        <a href="redes.html">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal3">Ver</a>
+                        <img src="./fondomenu/ejercicio 3.jpg" alt="">
+                        <a href="index.html">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal4">Ver</a>
+                        <img src="./fondomenu/ejercicio 4.jpg" alt="">
+                        <a href="index.html">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal5">Ver</a>
+                        <img src="./fondomenu/ejercicio 5.jpg" alt="">
+                        <a href="index.html">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="waves-effect waves-light modal-trigger" href="#modal6">Ver</a>
+                        <img src="./fondomenu/ejercicio 6.jpg" alt="">
+                        <a href="index.html">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 1.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 2.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    
+    <div id="modal3" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 3.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    
+    <div id="modal4" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 4.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    
+    <div id="modal5" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 5.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    
+    <div id="modal6" class="modal">
+        <div class="modal-content o-modal">
+            <img src="./fondomenu/ejercicio 6.jpg" style="width: 500px;" alt="">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/diseño.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems,);
+        });
+    </script>
+</body>
+
+</html>
