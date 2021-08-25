@@ -60,20 +60,191 @@ body {
     font-weight: lighter;
 }
 
-/*MENU*/
 
-.container-icons img {
-    position: fixed;
-    left: 93%;
-    top: 35%;
-    display: flex;
-    height: 45px;   
+@media screen and (max-width: 1025px) {
+    .subtitulo {
+        margin: 5px 0;
+        color: white;
+        display: inline;
+        font-size: 27px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin-top: -4rem;
+        margin-left: -1rem;
+    }
+    
+    .carousel {
+        min-height: 250px;
+        position: absolute;
+        top: 5rem;
+        left: -1rem;
+    }
+    
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        user-select: none;
+        width: 250px;
+        height: 250px;
+        padding-top: 240px;
+    }
+    
+    .carousel .carousel-item img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        position: absolute;
+        margin-left: -0.5rem;
+        top: 0;
+        z-index: -1;
+        border-radius: 3%;
+    }
+    
+    .carousel .carousel-item a {
+        color: white;
+    }
+    
+    .carousel .carousel-item a h1 {
+        font-size: 22px;
+        margin-top: 0;
+        margin-left: -1rem;
+        font-weight: lighter;
+    }
+
+    .carousel .indicators {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: -0.9rem;
+}
 }
 
-.container-icons2 img {
-    position: fixed;
-    left: 93%;
-    top: 50%;
-    display: flex;
-    height: 45px;   
+@media screen and (max-width: 768px) {
+    .subtitulo {
+        margin: 5px 0;
+        color: white;
+        display: inline;
+        font-size: 27px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin-top: -4rem;
+        margin-left: -1rem;
+    }
+    
+    .carousel {
+        min-height: 250px;
+        position: absolute;
+        top: 5rem;
+        left: -0.2rem;
+    }
+    
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        user-select: none;
+        width: 250px;
+        height: 250px;
+        padding-top: 240px;
+    }
+    
+    .carousel .carousel-item img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        position: absolute;
+        margin-left: -0.5rem;
+        top: 0;
+        z-index: -1;
+        border-radius: 3%;
+    }
+    
+    .carousel .carousel-item a {
+        color: white;
+    }
+    
+    .carousel .carousel-item a h1 {
+        font-size: 22px;
+        margin-top: 0;
+        margin-left: -1rem;
+        font-weight: lighter;
+    }
+
+    .carousel .indicators {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: -0.9rem;
+}
+}
+
+@media screen and (max-width: 426px) {
+
+    .subtitulo {
+        margin: 7px 0;
+        color: white;
+        display: inline;
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin-top: -9rem;
+        margin-left: -1rem;
+    }
+    
+    .carousel {
+        min-height: 200px;
+        position: absolute;
+        top: 5rem;
+        left: 1px;
+    }
+    
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        user-select: none;
+        width: 200px;
+        height: 200px;
+        padding-top: 240px;
+    }
+    
+    .carousel .carousel-item img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        position: absolute;
+        margin-left: -0.5rem;
+        top: 0;
+        z-index: -1;
+        border-radius: 3%;
+    }
+    
+    .carousel .carousel-item a {
+        color: white;
+    }
+    
+    .carousel .carousel-item a h1 {
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: -1rem;
+        font-weight: lighter;
+    }
+
+    .carousel .indicators {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: -0.9rem;
+}
+
 }
