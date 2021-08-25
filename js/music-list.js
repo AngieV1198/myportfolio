@@ -2,14 +2,14 @@ let allMusic = [
     {
       name: "Melting",
       artist: "Kali Uchis",
-      img: "C1",
+      img: "c1",
       src: "Melting"
     },
     {
       name: "Soñé Contigo",
       artist: "C. Sadness-M.Mares",
       img: "c3",
-      src: "sonecontigo"
+      src: "Sonecontigo"
     },
     {
       name: "Yonaguni",
