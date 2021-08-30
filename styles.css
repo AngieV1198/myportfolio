@@ -1,3 +1,68 @@
+/*menu correo*/
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background: url(bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+nav{
+  position: fixed;
+  width: 70px;
+  margin-top: 50px;
+}
+nav li{
+  height: 60px;
+  position:relative;
+}
+nav li a{
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left:25%;
+}
+nav li:nth-child(1) a{
+  background: #222a3a;
+  transition: all 0.2s linear;
+}
+
+nav li a i{
+  position:absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 35px;
+}
+ul li a span{
+  display: none;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  /*text-transform: uppercase;*/
+}
+a:hover {
+  z-index:1;
+  width: 450px;
+}
+
+ul li:hover a span{
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: all 0.5s linear;
+}
+
+/*final correo*/
+
 * {
     margin: 0%;
     padding: 0%;
@@ -22,60 +87,17 @@ section {
     overflow: hidden;
 }
 
-/*boton*/
-.action img {
-    margin-left: -28rem;
-    width: 60px;
-    height: 60px;
-}
 
-.action {
-    margin: -36rem 0 0 -14rem;
-    cursor: pointer;
-}
-
-
-.action span {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #222a3a;
-    transition: 0.3s ease-in-out;
-}
-
-.action.active span {
-    transform: rotateX(-360deg);
-}
-
-.action h4 {
-    position: absolute;
-    margin: -3.2rem 0 0 -12rem;
-    font-weight: 300;
-    color: white;
-    padding: 10px;
-    background-color: #222a3a;
-    font-size: 20px;
-    border-radius: 11px;
-}
-
-.action.active h4 {
-    opacity: 0;
-    visibility: visible;
-    transition: 0.3s;
-}
-
-/*final boton*/
 
 .text1 h2 {
-    margin-left: -50rem;
+    margin-left: -40rem;
     font-size: 40px;
     font-weight: lighter;
     color: white;
 }
 
 .text2 h1 {
-    margin-left: -50rem;
+    margin-left: -40rem;
     font-size: 120px;
     font-weight: bold;
     color: white;
@@ -83,7 +105,7 @@ section {
 
 .text p {
     margin-top: 1rem;
-    margin-left: -50rem;
+    margin-left: -40rem;
     font-size: 25px;
     font-weight: 300;
     color: white;

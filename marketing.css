@@ -1,3 +1,69 @@
+/*menu icons*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: url(bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+nav{
+  position: fixed;
+  width: 70px;
+  margin-top: 300px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+}
+nav li{
+  height: 60px;
+  position:relative;
+}
+nav li a{
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left:25%;
+  transition: all .3s linear;
+}
+nav li:nth-child(1) a{
+  background: #00ADB5;
+}
+nav li:nth-child(2) a{
+  background: #00ADB5;
+}
+
+nav li a i{
+  position:absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+ul li a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+a:hover {
+  z-index:1;
+  width: 200px;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+ul li:hover a span{
+  padding-left: 30%;
+  display: block;
+}
+
 @font-face {
     font-family: imperator;
     src: url(./fonts/ImperatorSmallCaps.ttf);
@@ -26,7 +92,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
@@ -38,30 +104,17 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    padding: 17px 0 5px 0;
+    padding: 17px 0 17px 0;
     margin: 0;
     color: #00ADB5;
 }
 
 .o-nav h3 {
-    font-size: 20px;
-    font-weight: 300;
-    padding: 5px 0 15px 0;
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 17px 0 17px 10px;
     margin: 0;
 }
-
-.container-media {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-
-.container-media img {
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-}
-
 
 .column {
     display: flex;
@@ -73,7 +126,7 @@ body {
 
 .column h3 {
     align-self: flex-start;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: lighter;
 }
 
@@ -87,14 +140,14 @@ body {
 
 .name img {
     width: 120px;
-    height: 120px;
+    height: 130px;
     padding: 0 0 10px 0;
 }
 
 .name h4 {
     font-size: 18px;
     font-weight: 300;
-    padding: 20px 0 0 1px;
+    padding: 48px 0 0 1px;
 }
 
 
