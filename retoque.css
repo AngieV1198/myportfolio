@@ -193,6 +193,7 @@ body {
         color: white;
         font-size: 20px;
         font-weight: 300;
+        padding-left: 43px;
     }
     
     .carousel .carousel-item a:hover {
