@@ -1,65 +1,63 @@
 /*menu correo*/
 *{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-body{
-  font-family: 'Roboto', sans-serif;
-  background: url(bg.jpeg);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-nav{
-  position: fixed;
-  width: 70px;
-  margin-top: 50px;
-}
-nav li{
-  height: 60px;
-  position:relative;
-}
-nav li a{
-  color: white;
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 60px;
-  padding-left:25%;
-}
-nav li:nth-child(1) a{
-  background: #222a3a;
-  transition: all 0.2s linear;
-}
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  nav{
+    position: fixed;
+    width: 70px;
+    margin-top: 70px;
+    transition: all 0.4s linear;
+  }
+  nav li{
+    height: 60px;
+    position:relative;
+  }
+  nav li a{
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    transition: all .2s linear;
+  }
+  nav li:nth-child(1) a{
+    background: #222a3a;
+  }
 
-nav li a i{
-  position:absolute;
-  top: 14px;
-  left: 20px;
-  font-size: 35px;
-}
-ul li a span{
-  display: none;
-  font-weight: 300;
-  font-size: 18px;
-  letter-spacing: 1px;
-  /*text-transform: uppercase;*/
-}
-a:hover {
-  z-index:1;
-  width: 450px;
-}
+  nav li a i{
+    position:absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+  }
+  ul li a span{
+    display: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 
-ul li:hover a span{
-  padding-left: 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  transition: all 0.5s linear;
-}
+  a:hover {
+    z-index:1;
+    width: 300px;
+  }
+  
+  ul li:hover a span{
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
 
 /*final correo*/
 
