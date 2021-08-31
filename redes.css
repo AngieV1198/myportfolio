@@ -109,7 +109,7 @@ body {
     .carousel {
         min-height: 300px;
         position: absolute;
-        top: 6rem;
+        top: 8rem;
         left: 0;
     }
 
@@ -135,7 +135,7 @@ body {
     .carousel {
         min-height: 200px;
         position: absolute;
-        top: 4rem;
+        top: 6rem;
         left: 0;
     }
     
@@ -207,7 +207,7 @@ body {
     .carousel {
         min-height: 200px;
         position: absolute;
-        top: 4rem;
+        top: 6rem;
         left: 0;
     }
     
