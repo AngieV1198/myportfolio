@@ -47,9 +47,14 @@
     letter-spacing: 1px;
   }
 
-  a:hover {
+nav ul li a:hover {
     z-index:1;
     width: 300px;
+}
+
+  a:hover {
+    z-index:1;
+    width: 100px;
   }
   
   ul li:hover a span{
@@ -181,7 +186,7 @@ section {
     height: 360px;
     background: #222a3a;
     border-radius: 11px;
-    z-index: 2;
+    z-index: 1;
     transition: 0.5s all;
     opacity: 0;
 }
@@ -303,9 +308,14 @@ section {
     letter-spacing: 1px;
   }
 
-  a:hover {
+  nav ul li a:hover {
     z-index:1;
     width: 300px;
+}
+
+  a:hover {
+    z-index:1;
+    width: 100px;
   }
   
   ul li:hover a span{
@@ -628,8 +638,30 @@ section {
     }
 }
 
+nav ul li a:hover {
+    z-index:1;
+    width: 300px;
+}
+
+  a:hover {
+    z-index:1;
+    width: 100px;
+  }
+
 
 @media screen and (max-width: 426px) {
+
+
+    nav ul li a:hover {
+        z-index:1;
+        width: 300px;
+    }
+    
+      a:hover {
+        z-index:1;
+        width: 90px;
+      }
+
     .container-icons img {
         position: fixed;
         left: 88%;
@@ -783,4 +815,5 @@ section {
         margin-top: -14rem;
         margin-right: -22rem;
     }
+
 }
