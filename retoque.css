@@ -69,7 +69,7 @@ body {
     padding: 0;
 }
 
-#modal7 {
+#modal7 modal-content o-modal {
     width: fit-content;
     max-height: 520px;
 }
