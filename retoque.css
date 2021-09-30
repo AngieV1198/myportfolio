@@ -69,6 +69,12 @@ body {
     padding: 0;
 }
 
+#modal7 {
+    width: fit-content;
+    max-height: 510px;
+}
+
+
 @media screen and (max-width: 1025px) {
     .o-modal {
         width: 100%;
